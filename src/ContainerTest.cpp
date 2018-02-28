@@ -76,7 +76,7 @@ void FilesystemTest()
 void ProcessListTest()
 {
     printf("[+] Running process list testing...\n");
-    tagPROCESSENTRY32W process_entry;
+    PROCESSENTRY32 process_entry;
     HANDLE snapshot;
 
     process_entry.dwSize = sizeof(process_entry);
